@@ -1,0 +1,267 @@
+/* /* .login-body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.login-container
+{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 280px;
+    border:2px solid black;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    border: 2px solid black;
+}
+.login-container h1{
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align: left;
+}
+.login-container input{
+    width: 300px;
+    margin: 35px 0px 10px 50px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+.login-container button
+{
+    width: 55px;
+    height: 55px;
+    border: none;
+    background: green;
+    outline: none;
+    position: relative;
+    top: 8px;
+    left:80%;
+    border-radius: 50%;
+    cursor: pointer;
+} */
+
+
+
+/* Register Page */
+
+/*.register-body
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register-container
+{
+    width: 400px;
+    height: 380px;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.register-container h1{
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align: left;
+}
+.register-container input{
+    width: 300px;
+    margin: 35px 0px 10px 50px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+.register-container button
+{
+    width: 55px;
+    height: 55px;
+    border: none;
+    background: green;
+    outline: none;
+    position: relative;
+    top: 8px;
+    left:80%;
+    border-radius: 50%;
+    cursor: pointer;
+} */
+
+
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #47289d;
+}
+
+.container {
+  position: relative;
+  width: 400px;
+  border-radius: 20px 20px 0 0;
+  padding: 30px;
+  background: #333;
+  display: flex;
+  justify-content:center ;
+  /* align-items: center; */
+  /*
+  flex-direction: column;
+  border-radius: 1px solid #111;
+  gap: 10px;
+  padding-bottom: 70px;
+  -webkit-box-reflect: below 1px
+    linear-gradient(transparent, transparent, #0005);
+}
+.container h2 {
+  color: #666;
+  font-weight: 500;
+}
+
+.container .inputArea {
+  position: relative;
+  width: 100%;
+}
+
+.container .inputArea input {
+  position: relative;
+  width: 100%;
+  background: #222;
+  border: none;
+  outline: none;
+  padding: 10px;
+  color: aliceblue;
+  font-size: 1.1em;
+}
+
+.container .strengthMeter {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background: #222;
+}
+
+.container .strengthMeter::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  transition: 0.5s;
+  background: #f00;
+}
+
+.container.weak .strengthMeter::before {
+  width: 10%;
+  background: #f00;
+  filter: drop-shadow(0 0 5px #f00) drop-shadow(0 0 10px #f00)
+    drop-shadow(0 0 20px #f00);
+}
+
+.container.moderate .strengthMeter::before {
+  width: 70%;
+  background: #eedc3d;
+  filter: drop-shadow(0 0 5px #eedc3d) drop-shadow(0 0 10px #eedc3d)
+    drop-shadow(0 0 20px #eedc3d);
+}
+
+.container.strong .strengthMeter::before {
+  width: 100%;
+  background: #18e605;
+  filter: drop-shadow(0 0 5px #18e605) drop-shadow(0 0 10px #18e605)
+    drop-shadow(0 0 20px #18e605);
+}
+
+.container .strengthMeter::after {
+  position: absolute;
+  top: -45px;
+  left: 30px;
+  transition: 0.5s;
+  color: aliceblue;
+}
+
+.container.container.weak .strengthMeter::after {
+  content: "Weak Password";
+  color: #f00;
+  filter: drop-shadow(0 0 5px#f00);
+}
+
+.container.container.container.moderate .strengthMeter::after {
+  content: "Moderate Password";
+  color: #eedc3d;
+  filter: drop-shadow(0 0 5px#eedc3d);
+}
+
+.container.container.container.container.strong .strengthMeter::after {
+  content: "Strong Password";
+  color: #18e605;
+  filter: drop-shadow(0 0 5px#18e605);
+}
+
+.show {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 100%;
+  color: aliceblue;
+  background: #888787;
+  border-radius: 10px;
+  border: 6px solid #222;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-size: 0.6em;
+}
+
+
+.show.hide::before {
+  content: "Hide";
+} */
+
+.load-body
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  height: 100vh;;
+}
+.loading
+{
+  width: 100px;
+  height: 100px;
+  border-top:2px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  transition: rotate 0.3s infinite;
+}
+@keyframes rotate
+{
+  0%
+  {
+    transition: rotate(0deg);
+  }
+  100%
+  {
+    transition: rotate(360deg);
+  }
+
+
+}
